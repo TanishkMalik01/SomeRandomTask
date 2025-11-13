@@ -25,9 +25,7 @@ const appData = {
     {"time": "10:40 PM - 11:00 PM", "activity": "Practical Labs", "type": "study", "description": "Hands-on security tools, Python scripting", "focus": "practical"},
     {"time": "11:00 PM - 11:45 PM", "activity": "Active Rest Period", "type": "break", "description": "Light meal, relaxation, no screens"},
     {"time": "11:45 PM - 12:15 AM", "activity": "Project Work", "type": "project", "description": "Coding projects, debugging, testing", "focus": "projects"},
-    {"time": "12:15 AM - 12:20 AM", "activity": "Micro Break", "type": "break", "description": "Quick stretch and hydration"},
-    {"time": "12:20 AM - 12:45 AM", "activity": "Review & Documentation", "type": "study", "description": "Code review, project documentation", "focus": "documentation"},
-    {"time": "12:45 AM - 1:00 AM", "activity": "Sleep Preparation", "type": "routine", "description": "Wind down, no screens, prepare for quality sleep"}
+    {"time": "12:15 AM - 1:00 AM", "activity": "Sleep Preparation", "type": "routine", "description": "Wind down, no screens, prepare for quality sleep"}
   ],
   "weekly_focus": {
     "python_topics": [
