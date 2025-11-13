@@ -2,10 +2,12 @@
 
 // Application data
 const appData = {
-  "schedule": [
-    {"time": "8:00 AM", "activity": "Wake Up & Morning Routine", "type": "routine", "description": "Wake up refreshed, hydrate, basic morning routine"},
-    {"time": "8:30 AM", "activity": "Breakfast", "type": "meal", "description": "Nutritious breakfast - oats, fruits, or eggs"},
-    {"time": "9:10 AM", "activity": "Leave for College", "type": "travel", "description": "Travel time - review notes or listen to tech podcasts"},
+   "schedule": [
+    {"time": "6:00 AM", "activity": "Wake Up & Morning Routine", "type": "routine", "description": "Wake up refreshed, hydrate, prepare for gym"},
+    {"time": "6:15 AM", "activity": "Gym Session", "type": "health", "description": "Morning workout - strength training, cardio, or functional fitness"},
+    {"time": "7:30 AM", "activity": "Return from Gym", "type": "travel", "description": "Commute back, cool down"},
+    {"time": "7:30 AM - 8:00 AM", "activity": "Instagram Scroll", "type": "break", "description": "Social media browsing, tech content, relaxation"},
+    {"time": "8:00 AM - 8:30 AM", "activity": "Breakfast & Getting Ready", "type": "meal", "description": "Nutritious post-workout breakfast, shower, prepare for college"},{"time": "9:10 AM", "activity": "Leave for College", "type": "travel", "description": "Travel time - review notes or listen to tech podcasts"},
     {"time": "9:30 AM - 3:00 PM", "activity": "College Classes", "type": "academic", "description": "Active participation, note-taking, networking"},
     {"time": "3:00 PM", "activity": "Return Home", "type": "travel", "description": "Commute back - mental transition time"},
     {"time": "3:30 PM - 4:30 PM", "activity": "Python Coding Practice", "type": "study", "description": "Daily Python exercises, coding challenges", "focus": "python"},
